@@ -11,7 +11,7 @@ class Game_over(pg.sprite.Sprite):
 
     def update(self):
         if self.rect.x != 0:
-            self.rect.x += 1
+            self.rect.x += 4
 
 
 def main():
